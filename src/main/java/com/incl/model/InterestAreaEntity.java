@@ -43,4 +43,8 @@ public class InterestAreaEntity extends BaseEntity {
       joinColumns = {@JoinColumn(name = "interest_id")},
       inverseJoinColumns = {@JoinColumn(name = "user_id")})
   private List<UserEntity> users;
+  
+  public void addUser(UserEntity user) {
+    users.add(user);
+  }
 }

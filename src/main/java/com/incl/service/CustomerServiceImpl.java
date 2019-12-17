@@ -10,8 +10,11 @@ import com.incl.repo.InterestAreaRepository;
 import com.incl.repo.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.util.CollectionUtils;
 
+import java.util.Collections;
 import java.util.List;
+import java.util.Objects;
 import java.util.stream.Collectors;
 
 @Service
@@ -56,13 +59,16 @@ public final class CustomerServiceImpl implements CustomerService {
   }
   
   private List<String> getUsersPhones(
-      List<UserEntity> usersList,
-      InterestAreaEntity interestAreaEntity
+      final List<UserEntity> usersList,
+      final InterestAreaEntity interestAreaEntity
   ) {
+    if (Objects.isNull(interestAreaEntity)) {
+      return Collections.emptyList();
+    }
     return usersList.stream()
-        .filter(userEntity -> userEntity
-            .getInterests()
-            .contains(interestAreaEntity))
+        .filter(userEntity ->
+            !CollectionUtils.isEmpty(userEntity.getInterests())
+                && userEntity.getInterests().contains(interestAreaEntity))
         .map(UserEntity::getPhone)
         .filter(phone -> phone.contains("+"))
         .collect(Collectors.toList());

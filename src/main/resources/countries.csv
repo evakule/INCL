@@ -1,0 +1,273 @@
+ID,TITLE,PHONE_PREFIX
+1,Afghanistan,+93
+2,Albania,+355
+3,Algeria,+213
+4,American Samoa,+1
+5,Andorra,+376
+6,Angola,+244
+7,Anguilla,+1
+8,Antigua and Barbuda,+1
+9,Argentina,+54
+10,Armenia,+374
+11,Aruba,+297
+12,Ascension Island,+247
+13,Australia,+61
+14,Australian Antarctic Territory,+672
+15,Austria,+43
+16,Azerbaijan,+994
+17,Bahamas,+1
+18,Bahrain,+973
+19,Bangladesh,+880
+20,Barbados,+1
+21,Belarus,+375
+22,Belgium,+32
+23,Belize,+501
+24,Benin,+229
+25,Bermuda,+1
+26,Bhutan,+975
+27,Bolivia,+591
+28,Bonaire,+599
+29,Bosnia and Herzegovina (Bosnia-Herzegovina),+387
+30,Botswana,+267
+31,Brazil,+55
+32,British Indian Ocean Territory,+246
+33,British Virgin Islands,+1
+34,Brunei,+673
+35,Bulgaria,+359
+36,Burkina Faso,+226
+37,Burma,+95
+38,Burundi,+257
+39,Cambodia,+855
+40,Cameroon,+237
+41,Canada,+1
+42,Canary Islands,+34
+43,Cape Verde,+238
+44,Cayman Islands,+1
+45,Central African Republic,+236
+46,Ceuta,+34
+47,Chad,+235
+48,Chagos Islands,+246
+49,Chile,+56
+50,People's Republic of China,+86
+51,Christmas Island,+61
+52,Cocos (Keeling) Islands,+61
+53,Colombia,+57
+54,Comoros,+269
+55,Republic of Congo,+242
+56,Democratic Republic of Congo,+243
+57,Cook Islands,+682
+58,Costa Rica,+506
+59,Croatia,+385
+60,Cuba,+53
+61,Curaçao,+599
+62,Curaçao and the Caribbean Netherlands,+599
+63,Cyprus,+357
+64,Czech Republic,+420
+65,Denmark,+45
+66,Diego Garcia,+246
+67,Djibouti,+253
+68,Dominica,+1
+69,Dominican Republic,+1
+70,East Timor,+670
+71,Easter Island,+56
+72,Ecuador,+593
+73,Egypt,+20
+74,El Salvador,+503
+75,England,+44
+76,Equatorial Guinea,+240
+77,Eritrea,+291
+78,Estonia,+372
+79,Ethiopia,+251
+80,Eswatini,+268
+81,Falkland Islands,+500
+82,Faroe Islands,+298
+83,Federated States of Micronesia,+691
+84,Fiji,+679
+85,Finland,+358
+86,France,+33
+87,French Overseas Departments and Territories,+262
+88,French Guiana,+594
+89,French Polynesia,+689
+90,Gabon,+241
+91,Gambia,+220
+92,Georgia,+995
+93,Germany,+49
+94,Ghana,+233
+95,Gibraltar,+350
+96,Greece,+30
+97,Greenland,+299
+98,Grenada,+1
+99,Guadeloupe,+590
+100,Guam,+1
+101,Guatemala,+502
+102,Guernsey,+44
+103,Guinea,+224
+104,Guinea-Bissau,+245
+105,Guyana,+592
+106,Haiti,+509
+107,Hawaii,+1
+108,Honduras,+504
+109,Hong Kong,+852
+110,Hungary,+36
+111,Iceland,+354
+112,India,+91
+113,Indonesia,+62
+114,Iran,+98
+115,Iraq,+964
+116,Ireland,+353
+117,Isle of Man,+44
+118,Israel,+972
+119,Italy,+39
+120,Ivory Coast,+225
+121,Jamaica,+1
+122,Jan Mayen,+47
+123,Japan,+81
+124,Jersey,+44
+125,Jordan,+962
+126,Kazakhstan,+7
+127,Kenya,+254
+128,Kiribati,+686
+129,Kosovo,+383
+130,Kuwait,+965
+131,Kyrgyzstan,+996
+132,Laos,+856
+133,Latvia,+371
+134,Lebanon,+961
+135,Lesotho,+266
+136,Liberia,+231
+137,Libya,+218
+138,Liechtenstein,+423
+139,Lithuania,+370
+140,Luxembourg,+352
+141,Macau,+853
+142,Madagascar,+261
+143,Madeira,+351
+144,Malawi,+265
+145,Malaysia,+60
+146,Maldives,+960
+147,Mali,+223
+148,Malta,+356
+149,Marshall Islands,+692
+150,Martinique,+596
+151,Mauritania,+222
+152,Mauritius,+230
+153,Mayotte,+262
+154,Melilla,+34
+155,Mexico,+52
+156,Moldova,+373
+157,Monaco,+377
+158,Mongolia,+976
+159,Montenegro,+382
+160,Montserrat,+1
+161,Morocco,+212
+162,Mozambique,+258
+163,Myanmar,+95
+164,Artsakh,+374
+165,Namibia,+264
+166,Nauru,+674
+167,Nepal,+977
+168,Netherlands,+31
+169,New Caledonia,+687
+170,New Zealand,+64
+171,Nicaragua,+505
+172,Niger,+227
+173,Nigeria,+234
+174,Niue,+683
+175,Norfolk Island,+672
+176,North Korea,+850
+177,North Macedonia,+389
+178,Northern Cyprus,+90
+179,Northern Ireland,+44
+180,Northern Mariana Islands,+1
+181,Norway,+47
+182,Oman,+968
+183,Pakistan,+92
+184,Palau,+680
+185,Panama,+507
+186,Papua New Guinea,+675
+187,Paraguay,+595
+188,Peru,+51
+189,Philippines,+63
+190,Pitcairn Islands,+64
+191,Plazas de soberanía,+34
+192,Poland,+48
+193,Portugal,+351
+194,Príncipe,+239
+195,Puerto Rico,+1
+196,Qatar,+974
+197,Réunion,+262
+198,Romania,+40
+199,Russia (Russian Federation),+7
+200,Rwanda,+250
+201,Saba,+599
+202,Sahrawi Arab Democratic Republic,+212
+203,Saint Barthélemy,+590
+204,Saint Helena and Tristan da Cunha (not Ascenscion),+290
+205,Saint Kitts and Nevis,+1
+206,Saint Lucia,+1
+207,Collectivity of Saint Martin,+590
+208,Saint Pierre and Miquelon,+508
+209,Saint Vincent and the Grenadines,+1
+210,Samoa,+685
+211,San Marino,+378
+212,São Tomé and Príncipe,+239
+213,Saudi Arabia,+966
+214,Scotland,+44
+215,Senegal,+221
+216,Serbia,+381
+217,Seychelles,+248
+218,Sierra Leone,+232
+219,Singapore,+65
+220,Sint Eustatius,+599
+221,Sint Maarten,+1
+222,Slovakia (Slovak Republic),+421
+223,Slovenia,+386
+224,Solomon Islands,+677
+225,Somalia,+252
+226,South Africa,+27
+227,South Georgia and the South Sandwich Islands,+500
+228,South Korea,+82
+229,South Ossetia,+995
+230,South Sudan,+211
+231,Spain,+34
+232,Sri Lanka,+94
+233,Sudan,+249
+234,Suriname,+597
+235,Svalbard,+47
+236,Sweden,+46
+237,Switzerland,+41
+238,Syria,+963
+239,Taiwan,+886
+240,Tajikistan,+992
+241,Tanzania,+255
+242,Thailand,+66
+243,Togo,+228
+244,Tokelau,+690
+245,Tonga,+676
+246,Trinidad and Tobago,+1
+247,Tristan da Cunha,+290
+248,Tunisia,+216
+249,Turkey,+90
+250,Turkmenistan,+993
+251,Turks and Caicos Islands,+1
+252,Tuvalu,+688
+253,Uganda,+256
+254,Ukraine,+380
+255,United Arab Emirates,+971
+256,United Kingdom,+44
+257,United States (USA),+1
+258,United States Virgin Islands,+1
+259,Uruguay,+598
+260,Uzbekistan,+998
+261,Vanuatu,+678
+262,Vatican City,+39
+263,Venezuela,+58
+264,Vietnam,+84
+265,British Virgin Islands,+1
+266,U.S. Virgin Islands,+1
+267,Wales,+44
+268,Wallis and Futuna,+681
+269,Western Sahara,+212
+270,Yemen,+967
+271,Zambia,+260
+272,Zimbabwe,+263

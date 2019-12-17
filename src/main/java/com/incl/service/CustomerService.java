@@ -9,4 +9,9 @@ public interface CustomerService {
   List<UserDTO> getAllUsers();
   
   UserDTO getUserById(Long id);
+  
+  List<String> getUsersPhonesByCountryAndInterests(
+      Long countryId,
+      Long interestId
+  );
 }

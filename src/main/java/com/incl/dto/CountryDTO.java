@@ -7,7 +7,8 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class UserCountryDTO {
+public class CountryDTO {
   private Long id;
   private String title;
+  private String phonePrefix;
 }

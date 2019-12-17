@@ -64,6 +64,7 @@ public final class CustomerServiceImpl implements CustomerService {
             .getInterests()
             .contains(interestAreaEntity))
         .map(UserEntity::getPhone)
+        .filter(phone -> phone.contains("+"))
         .collect(Collectors.toList());
   }
 }

@@ -45,4 +45,10 @@ public class CountryEntity extends BaseEntity {
       joinColumns = {@JoinColumn(name = "country_id")},
       inverseJoinColumns = {@JoinColumn(name = "interest_id")})
   private List<InterestAreaEntity> interests;
+  
+  public CountryEntity(Long id, String title, String phonePrefix) {
+    super(id);
+    this.title = title;
+    this.phonePrefix = phonePrefix;
+  }
 }

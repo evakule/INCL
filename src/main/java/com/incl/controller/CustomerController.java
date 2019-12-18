@@ -1,16 +1,16 @@
 package com.incl.controller;
 
 import com.incl.dto.UserDTO;
+import com.incl.dto.UserRegistrationDto;
 import com.incl.service.CustomerService;
+import com.incl.service.exception.InvalidPhoneNumberException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.util.CollectionUtils;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
+import javax.validation.Valid;
 import java.util.List;
 
 @RestController
@@ -38,6 +38,23 @@ public class CustomerController {
       return new ResponseEntity<>(HttpStatus.NOT_FOUND);
     } else {
       return new ResponseEntity<>(userDTO, HttpStatus.OK);
+    }
+  }
+  
+  @PostMapping
+  public ResponseEntity<?> registration(
+      final @RequestBody @Valid UserRegistrationDto newUser
+      ) {
+    if (newUser == null) {
+      return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
+    } else {
+      try {
+        customerService.createUser(newUser);
+      } catch (InvalidPhoneNumberException e) {
+        return new ResponseEntity<>(
+            e.getLocalizedMessage(), HttpStatus.NOT_FOUND);
+      }
+      return new ResponseEntity<>(HttpStatus.CREATED);
     }
   }
 }

@@ -91,7 +91,8 @@ public final class CustomerServiceImpl implements CustomerService {
   @Override
   public void createUser(final UserRegistrationDto newUser)
       throws InvalidPhoneNumberException {
-    CountryEntity countryEntity = getCountry(newUser);
+    String newUserPhone = newUser.getPhone();
+    CountryEntity countryEntity = getCountryByPhone(newUserPhone);
     if (Objects.isNull(countryEntity)) {
       throw new InvalidPhoneNumberException(invalidPhoneNumberMessage);
     }
@@ -110,17 +111,12 @@ public final class CustomerServiceImpl implements CustomerService {
     return userEntity;
   }
   
-  private CountryEntity getCountry(final UserRegistrationDto newUser) {
+  private CountryEntity getCountryByPhone(final String newUserPhone) {
     CountryEntity countryEntity = null;
-    int count = 4;
-    String phonePrefix = newUser.getPhone().substring(0, count);
-    while (count >= 2) {
-      countryEntity = countryRepository.getByPhonePrefix(phonePrefix);
-      if (Objects.isNull(countryEntity)) {
-        count--;
-        phonePrefix = newUser.getPhone().substring(0, count);
-      } else {
-        count = 1;
+    for (int prefixSize = 4; prefixSize >= 2; prefixSize--) {
+      countryEntity = countryRepository.getByPhonePrefix(newUserPhone.substring(0, prefixSize));
+      if (Objects.nonNull(countryEntity)) {
+        return countryEntity;
       }
     }
     return countryEntity;

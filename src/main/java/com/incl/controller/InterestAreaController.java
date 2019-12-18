@@ -56,8 +56,7 @@ public class InterestAreaController {
       return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
     } else {
       interestAreaService.subscribeToInterest(id, userId);
-      return new ResponseEntity<>(
-          ResponseMessage.USER_SUBSCRIBED.getMessage(), HttpStatus.OK);
+      return new ResponseEntity<>(ResponseMessage.USER_SUBSCRIBED, HttpStatus.OK);
     }
   }
   

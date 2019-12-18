@@ -26,7 +26,7 @@ public class CountryBatchConfig {
   private static final String LOAD = "Country-load";
   private static final String READER = "CSV-Reader";
   private static final String DELIMITER = ",";
-  private static final String FILE_SOURCE = "src/main/resources/countries.csv";
+  private static final String FILE_SOURCE = "src/main/java/com/incl/prerequisites/countries.csv";
   private static final String[] FIELDS = {"ID", "TITLE", "PHONE_PREFIX"};
   
   @Bean
